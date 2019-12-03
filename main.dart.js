@@ -38707,7 +38707,7 @@ pp:function(a){if(J.RI(a,18))return"Yes"
 else return"No"},
 $aT:function(){return[S.o_]}}
 F.Cp.prototype={
-J:function(a){return new S.ph(new F.FO(null),"Flutter Demo",X.Tz(null,C.pU),!1,null)}}
+J:function(a){return new S.ph(new F.FO(null),"Json Table Demo",X.Tz(null,C.pU),!1,null)}}
 F.FO.prototype={
 J:function(a){var u=null,t=L.cf("Table Widget",u,u,u,u),s=[N.aj],r=new E.qY(H.b([E.QO("Simple Table"),E.QO("Custom Table"),E.QO("Nested Data Table")],s),u),q=r.gqI()
 q=q.b
