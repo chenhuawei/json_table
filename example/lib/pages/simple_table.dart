@@ -50,7 +50,7 @@ class _SimpleTableState extends State<SimpleTable> {
                         ),
                       );
                     },
-                    tableCellBuilder: (value) {
+                    tableCellBuilder: (column, row, value) {
                       return Container(
                         padding: EdgeInsets.symmetric(
                             horizontal: 4.0, vertical: 2.0),

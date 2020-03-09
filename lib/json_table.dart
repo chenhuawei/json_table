@@ -8,7 +8,7 @@ import 'package:json_table/json_table_column.dart';
 import 'table_column.dart';
 
 typedef TableHeaderBuilder = Widget Function(String header);
-typedef TableCellBuilder = Widget Function(dynamic value);
+typedef TableCellBuilder = Widget Function(JsonTableColumn column, dynamic row, dynamic value);
 
 class JsonTable extends StatefulWidget {
   final List dataList;

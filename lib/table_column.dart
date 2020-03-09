@@ -73,7 +73,7 @@ class TableColumn extends StatelessWidget {
                                 : null,
                             child: tableCellBuilder != null
                                 ? tableCellBuilder(
-                                    getFormattedValue(
+                                    column, rowMap, getFormattedValue(
                                       jsonUtils.get(
                                         rowMap,
                                         column?.field ?? header,
